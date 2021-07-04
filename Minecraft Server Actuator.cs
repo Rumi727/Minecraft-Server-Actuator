@@ -102,7 +102,7 @@ namespace Minecraft_Server_Actuator
             serverKill = new CmslServer(config.TaskkillCommand);
 
             if (config.Show_the_authorship_of_the_dll_and_package_file_used_in_the_log)
-                log.Text = $"Minecraft Server Actuator by. Simsimhan Chobo (https://github.com/SimsimhanChobo/Minecraft-Server-Actuator) {Environment.NewLine}Fody by. Fody (https://github.com/Fody/Fody) {Environment.NewLine}Costura.Fody by. Fody (https://github.com/Fody/Costura) {Environment.NewLine}CmslCoreLib.dll by. 슈퍼코믹 (https://blog.naver.com/ekfvoddl3535/221650680627) {Environment.NewLine}Newtonsoft.Json.dll by. James Newton-King (https://github.com/JamesNK/Newtonsoft.Json)" + Environment.NewLine + Environment.NewLine;
+                log.Text = $"Minecraft Server Actuator by. Simsimhan Chobo (https://github.com/SimsimhanChobo/Minecraft-Server-Actuator) {Environment.NewLine}CmslCoreLib.dll by. 슈퍼코믹 (https://blog.naver.com/ekfvoddl3535/221650680627) {Environment.NewLine}Newtonsoft.Json.dll by. James Newton-King (https://github.com/JamesNK/Newtonsoft.Json)" + Environment.NewLine + Environment.NewLine;
 
             GetWindowsColor();
 
