@@ -143,6 +143,12 @@ namespace Minecraft_Server_Actuator
                         server_datapack_reload_button.Enabled = true;
                         command.Enabled = true;
 
+                        서버끄기ToolStripMenuItem.Enabled = true;
+                        서버켜기ToolStripMenuItem.Enabled = false;
+                        서버강제종료ToolStripMenuItem.Enabled = true;
+                        서버리로드ToolStripMenuItem.Enabled = true;
+                        서버데이터팩리로드ToolStripMenuItem.Enabled = true;
+
                         tick_1000.Enabled = true;
                         tick_1000.Start();
                         server_on_time_text.Text = "구동 시간 0:00:00";
@@ -163,6 +169,12 @@ namespace Minecraft_Server_Actuator
                         server_reload_button.Enabled = true;
                         server_datapack_reload_button.Enabled = true;
                         command.Enabled = true;
+
+                        서버끄기ToolStripMenuItem.Enabled = true;
+                        서버켜기ToolStripMenuItem.Enabled = false;
+                        서버강제종료ToolStripMenuItem.Enabled = true;
+                        서버리로드ToolStripMenuItem.Enabled = true;
+                        서버데이터팩리로드ToolStripMenuItem.Enabled = true;
 
                         tick_1000.Enabled = true;
                         tick_1000.Start();
@@ -193,6 +205,10 @@ namespace Minecraft_Server_Actuator
             server_reload_button.Enabled = false;
             server_datapack_reload_button.Enabled = false;
             command.Enabled = false;
+
+            서버끄기ToolStripMenuItem.Enabled = false;
+            서버리로드ToolStripMenuItem.Enabled = false;
+            서버데이터팩리로드ToolStripMenuItem.Enabled = false;
         }
 
         private void server_off_button_Click(object sender, EventArgs e) => ServerOff();
@@ -229,6 +245,10 @@ namespace Minecraft_Server_Actuator
                         server_reload_button.Enabled = false;
                         server_datapack_reload_button.Enabled = false;
                         command.Enabled = false;
+
+                        서버끄기ToolStripMenuItem.Enabled = false;
+                        서버리로드ToolStripMenuItem.Enabled = false;
+                        서버데이터팩리로드ToolStripMenuItem.Enabled = false;
 
                         Close = true;
                         e.Cancel = true;
@@ -267,6 +287,12 @@ namespace Minecraft_Server_Actuator
                 server_reload_button.Enabled = false;
                 server_datapack_reload_button.Enabled = false;
                 command.Enabled = false;
+
+                서버끄기ToolStripMenuItem.Enabled = false;
+                서버켜기ToolStripMenuItem.Enabled = true;
+                서버강제종료ToolStripMenuItem.Enabled = false;
+                서버리로드ToolStripMenuItem.Enabled = false;
+                서버데이터팩리로드ToolStripMenuItem.Enabled = false;
 
                 tick_1000.Enabled = false;
                 tick_1000.Stop();
@@ -308,6 +334,12 @@ namespace Minecraft_Server_Actuator
                 server_reload_button.Enabled = false;
                 server_datapack_reload_button.Enabled = false;
                 command.Enabled = false;
+
+                서버끄기ToolStripMenuItem.Enabled = false;
+                서버켜기ToolStripMenuItem.Enabled = true;
+                서버강제종료ToolStripMenuItem.Enabled = false;
+                서버리로드ToolStripMenuItem.Enabled = false;
+                서버데이터팩리로드ToolStripMenuItem.Enabled = false;
 
                 tick_1000.Enabled = false;
                 tick_1000.Stop();
