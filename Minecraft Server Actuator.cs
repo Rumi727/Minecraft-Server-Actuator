@@ -266,7 +266,7 @@ namespace Minecraft_Server_Actuator
                 }
             }
 
-            if (!e.Cancel)
+            if (!e.Cancel && Program.save)
             {
                 string jsonText = JsonConvert.SerializeObject(config, Formatting.Indented);
                 File.WriteAllText(Path.Combine(Application.StartupPath, "config.json"), jsonText);

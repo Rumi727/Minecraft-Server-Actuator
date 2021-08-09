@@ -10,6 +10,8 @@ namespace Minecraft_Server_Actuator
 {
     static class Program
     {
+        public static bool save = true;
+
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -19,22 +21,43 @@ namespace Minecraft_Server_Actuator
             for (int i = 0; i < args.Length; i++)
             {
                 if (args[i] == "/asp" && args.Length > i + 1)
+                {
                     Minecraft_Server_Actuator.config.AutoStartPath = args[i + 1];
+                    save = false;
+                }
                 else if (args[i] == "/r" && args.Length > i + 1)
                 {
                     if (int.TryParse(args[i + 1], out int temp))
+                    {
                         Minecraft_Server_Actuator.config.Ram = temp;
+                        save = false;
+                    }
                 }
                 else if (args[i] == "/sn" && args.Length > i + 1)
+                {
                     Minecraft_Server_Actuator.config.ServerName = args[i + 1];
+                    save = false;
+                }
                 else if (args[i] == "/src" && args.Length > i + 1)
+                {
                     Minecraft_Server_Actuator.config.ServerReloadCommand = args[i + 1];
+                    save = false;
+                }
                 else if (args[i] == "/sdrc" && args.Length > i + 1)
+                {
                     Minecraft_Server_Actuator.config.ServerDatapackReloadCommand = args[i + 1];
+                    save = false;
+                }
                 else if (args[i] == "/ssc" && args.Length > i + 1)
+                {
                     Minecraft_Server_Actuator.config.ServerStopCommand = args[i + 1];
+                    save = false;
+                }
                 else if (args[i] == "/stc" && args.Length > i + 1)
+                {
                     Minecraft_Server_Actuator.config.TaskkillCommand = args[i + 1];
+                    save = false;
+                }
             }
 
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
