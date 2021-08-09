@@ -107,7 +107,7 @@ namespace Minecraft_Server_Actuator
             // 
             this.server_reload_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.server_reload_button.Enabled = false;
-            this.server_reload_button.Location = new System.Drawing.Point(582, 99);
+            this.server_reload_button.Location = new System.Drawing.Point(582, 70);
             this.server_reload_button.Name = "server_reload_button";
             this.server_reload_button.Size = new System.Drawing.Size(145, 23);
             this.server_reload_button.TabIndex = 5;
@@ -118,7 +118,7 @@ namespace Minecraft_Server_Actuator
             // 
             this.server_datapack_reload_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.server_datapack_reload_button.Enabled = false;
-            this.server_datapack_reload_button.Location = new System.Drawing.Point(582, 128);
+            this.server_datapack_reload_button.Location = new System.Drawing.Point(582, 99);
             this.server_datapack_reload_button.Name = "server_datapack_reload_button";
             this.server_datapack_reload_button.Size = new System.Drawing.Size(145, 23);
             this.server_datapack_reload_button.TabIndex = 6;
@@ -130,7 +130,7 @@ namespace Minecraft_Server_Actuator
             this.server_kill_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.server_kill_button.Enabled = false;
             this.server_kill_button.ForeColor = System.Drawing.Color.Red;
-            this.server_kill_button.Location = new System.Drawing.Point(582, 70);
+            this.server_kill_button.Location = new System.Drawing.Point(582, 358);
             this.server_kill_button.Name = "server_kill_button";
             this.server_kill_button.Size = new System.Drawing.Size(145, 23);
             this.server_kill_button.TabIndex = 4;
@@ -148,7 +148,7 @@ namespace Minecraft_Server_Actuator
             this.server_on_time_text.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.server_on_time_text.AutoSize = true;
             this.server_on_time_text.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.server_on_time_text.Location = new System.Drawing.Point(582, 360);
+            this.server_on_time_text.Location = new System.Drawing.Point(582, 332);
             this.server_on_time_text.Name = "server_on_time_text";
             this.server_on_time_text.Size = new System.Drawing.Size(139, 21);
             this.server_on_time_text.TabIndex = 7;
@@ -167,7 +167,7 @@ namespace Minecraft_Server_Actuator
             // darktheme_checkbox
             // 
             this.darktheme_checkbox.AutoSize = true;
-            this.darktheme_checkbox.Location = new System.Drawing.Point(582, 333);
+            this.darktheme_checkbox.Location = new System.Drawing.Point(582, 310);
             this.darktheme_checkbox.Name = "darktheme_checkbox";
             this.darktheme_checkbox.Size = new System.Drawing.Size(78, 19);
             this.darktheme_checkbox.TabIndex = 8;
@@ -245,7 +245,7 @@ namespace Minecraft_Server_Actuator
             // 
             // GUIToggle_button
             // 
-            this.GUIToggle_button.Location = new System.Drawing.Point(582, 158);
+            this.GUIToggle_button.Location = new System.Drawing.Point(582, 128);
             this.GUIToggle_button.Name = "GUIToggle_button";
             this.GUIToggle_button.Size = new System.Drawing.Size(145, 23);
             this.GUIToggle_button.TabIndex = 9;
