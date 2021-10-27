@@ -110,6 +110,8 @@ namespace Minecraft_Server_Actuator
             {
                 Opacity = 0;
                 ShowInTaskbar = false;
+                FormBorderStyle = FormBorderStyle.SizableToolWindow;
+                WindowState = FormWindowState.Minimized;
                 GUIToggleToolStripMenuItem.Text = "GUI 보이기";
                 GUIToggle_button.Text = "GUI 보이기";
             }
@@ -477,6 +479,8 @@ namespace Minecraft_Server_Actuator
             {
                 Opacity = 0;
                 ShowInTaskbar = false;
+                FormBorderStyle = FormBorderStyle.SizableToolWindow;
+                WindowState = FormWindowState.Minimized;
                 GUIToggleToolStripMenuItem.Text = "GUI 보이기";
                 GUIToggle_button.Text = "GUI 보이기";
             }
@@ -484,6 +488,8 @@ namespace Minecraft_Server_Actuator
             {
                 Opacity = 100;
                 ShowInTaskbar = true;
+                FormBorderStyle = FormBorderStyle.Sizable;
+                WindowState = FormWindowState.Normal;
                 GUIToggleToolStripMenuItem.Text = "GUI 숨기기";
                 GUIToggle_button.Text = "GUI 숨기기";
             }
