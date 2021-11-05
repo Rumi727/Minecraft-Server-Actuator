@@ -127,7 +127,7 @@ namespace Minecraft_Server_Actuator
             // 
             // server_kill_button
             // 
-            this.server_kill_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.server_kill_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.server_kill_button.Enabled = false;
             this.server_kill_button.ForeColor = System.Drawing.Color.Red;
             this.server_kill_button.Location = new System.Drawing.Point(582, 358);
@@ -166,6 +166,7 @@ namespace Minecraft_Server_Actuator
             // 
             // darktheme_checkbox
             // 
+            this.darktheme_checkbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.darktheme_checkbox.AutoSize = true;
             this.darktheme_checkbox.Location = new System.Drawing.Point(582, 310);
             this.darktheme_checkbox.Name = "darktheme_checkbox";
@@ -245,6 +246,7 @@ namespace Minecraft_Server_Actuator
             // 
             // GUIToggle_button
             // 
+            this.GUIToggle_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.GUIToggle_button.Location = new System.Drawing.Point(582, 128);
             this.GUIToggle_button.Name = "GUIToggle_button";
             this.GUIToggle_button.Size = new System.Drawing.Size(145, 23);
