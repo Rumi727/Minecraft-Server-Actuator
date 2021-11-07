@@ -260,7 +260,6 @@ namespace Minecraft_Server_Actuator
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(733, 394);
-            this.Controls.Add(this.GUIToggle_button);
             this.Controls.Add(this.darktheme_checkbox);
             this.Controls.Add(this.server_on_time_text);
             this.Controls.Add(this.server_kill_button);
@@ -270,6 +269,7 @@ namespace Minecraft_Server_Actuator
             this.Controls.Add(this.server_on_button);
             this.Controls.Add(this.command);
             this.Controls.Add(this.log);
+            this.Controls.Add(this.GUIToggle_button);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(185, 178);
             this.Name = "Minecraft_Server_Actuator";
