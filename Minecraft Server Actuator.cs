@@ -54,6 +54,9 @@ namespace Minecraft_Server_Actuator
             LightButtonColor = Color.FromArgb(250, 250, 250);
             LightTextColor = Color.Black;
 
+            /*DarkColor = Color.Black;
+            DarkDarkColor = Color.Black;
+            DarkButtonColor = Color.Black;*/
             DarkColor = Color.FromArgb(32, 32, 32);
             DarkDarkColor = Color.FromArgb(25, 25, 25);
             DarkButtonColor = Color.FromArgb(93, 93, 93);
