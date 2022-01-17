@@ -77,7 +77,7 @@ namespace Minecraft_Server_Actuator
             this.command.Enabled = false;
             this.command.Location = new System.Drawing.Point(12, 359);
             this.command.Name = "command";
-            this.command.Size = new System.Drawing.Size(564, 23);
+            this.command.Size = new System.Drawing.Size(564, 22);
             this.command.TabIndex = 0;
             this.command.KeyDown += new System.Windows.Forms.KeyEventHandler(this.command_KeyDown);
             this.command.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.command_KeyPress);
@@ -147,10 +147,10 @@ namespace Minecraft_Server_Actuator
             // 
             this.server_on_time_text.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.server_on_time_text.AutoSize = true;
-            this.server_on_time_text.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.server_on_time_text.Font = new System.Drawing.Font("Pretendard Variable Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.server_on_time_text.Location = new System.Drawing.Point(582, 332);
             this.server_on_time_text.Name = "server_on_time_text";
-            this.server_on_time_text.Size = new System.Drawing.Size(139, 21);
+            this.server_on_time_text.Size = new System.Drawing.Size(131, 19);
             this.server_on_time_text.TabIndex = 7;
             this.server_on_time_text.Text = "구동 시간 0:00:00";
             // 
@@ -168,9 +168,9 @@ namespace Minecraft_Server_Actuator
             // 
             this.darktheme_checkbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.darktheme_checkbox.AutoSize = true;
-            this.darktheme_checkbox.Location = new System.Drawing.Point(582, 310);
+            this.darktheme_checkbox.Location = new System.Drawing.Point(591, 310);
             this.darktheme_checkbox.Name = "darktheme_checkbox";
-            this.darktheme_checkbox.Size = new System.Drawing.Size(78, 19);
+            this.darktheme_checkbox.Size = new System.Drawing.Size(69, 19);
             this.darktheme_checkbox.TabIndex = 8;
             this.darktheme_checkbox.Text = "다크 모드";
             this.darktheme_checkbox.UseVisualStyleBackColor = true;
@@ -193,54 +193,54 @@ namespace Minecraft_Server_Actuator
             this.GUIToggleToolStripMenuItem,
             this.종료ToolStripMenuItem});
             this.context_trayicon.Name = "contextMenuStrip1";
-            this.context_trayicon.Size = new System.Drawing.Size(195, 158);
+            this.context_trayicon.Size = new System.Drawing.Size(174, 158);
             // 
             // 서버켜기ToolStripMenuItem
             // 
             this.서버켜기ToolStripMenuItem.Name = "서버켜기ToolStripMenuItem";
-            this.서버켜기ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.서버켜기ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.서버켜기ToolStripMenuItem.Text = "서버 켜기";
             this.서버켜기ToolStripMenuItem.Click += new System.EventHandler(this.서버켜기ToolStripMenuItem_Click);
             // 
             // 서버끄기ToolStripMenuItem
             // 
             this.서버끄기ToolStripMenuItem.Name = "서버끄기ToolStripMenuItem";
-            this.서버끄기ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.서버끄기ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.서버끄기ToolStripMenuItem.Text = "서버 끄기";
             this.서버끄기ToolStripMenuItem.Click += new System.EventHandler(this.서버끄기ToolStripMenuItem_Click);
             // 
             // 서버강제종료ToolStripMenuItem
             // 
             this.서버강제종료ToolStripMenuItem.Name = "서버강제종료ToolStripMenuItem";
-            this.서버강제종료ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.서버강제종료ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.서버강제종료ToolStripMenuItem.Text = "서버 강제 종료";
             this.서버강제종료ToolStripMenuItem.Click += new System.EventHandler(this.서버강제종료ToolStripMenuItem_Click);
             // 
             // 서버리로드ToolStripMenuItem
             // 
             this.서버리로드ToolStripMenuItem.Name = "서버리로드ToolStripMenuItem";
-            this.서버리로드ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.서버리로드ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.서버리로드ToolStripMenuItem.Text = "서버 리로드";
             this.서버리로드ToolStripMenuItem.Click += new System.EventHandler(this.서버리로드ToolStripMenuItem_Click);
             // 
             // 서버데이터팩리로드ToolStripMenuItem
             // 
             this.서버데이터팩리로드ToolStripMenuItem.Name = "서버데이터팩리로드ToolStripMenuItem";
-            this.서버데이터팩리로드ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.서버데이터팩리로드ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.서버데이터팩리로드ToolStripMenuItem.Text = "서버 데이터 팩 리로드";
             this.서버데이터팩리로드ToolStripMenuItem.Click += new System.EventHandler(this.서버데이터팩리로드ToolStripMenuItem_Click);
             // 
             // GUIToggleToolStripMenuItem
             // 
             this.GUIToggleToolStripMenuItem.Name = "GUIToggleToolStripMenuItem";
-            this.GUIToggleToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.GUIToggleToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.GUIToggleToolStripMenuItem.Text = "GUI 숨기기";
             this.GUIToggleToolStripMenuItem.Click += new System.EventHandler(this.GUIToggleToolStripMenuItem_Click);
             // 
             // 종료ToolStripMenuItem
             // 
             this.종료ToolStripMenuItem.Name = "종료ToolStripMenuItem";
-            this.종료ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.종료ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.종료ToolStripMenuItem.Text = "종료";
             this.종료ToolStripMenuItem.Click += new System.EventHandler(this.종료ToolStripMenuItem_Click);
             // 
