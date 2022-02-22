@@ -2,15 +2,16 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>Minecraft_Server_Actuator</RootNamespace>
-    <UseWindowsForms>true</UseWindowsForms>
+    <UseWindowsForms>True</UseWindowsForms>
     <ApplicationIcon>Minecraft.ico</ApplicationIcon>
     <StartupObject />
     <Authors>Simsimhan Chobo</Authors>
     <Company>TEAM Bucket</Company>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Platforms>AnyCPU;ARM32;x64;x86</Platforms>
+    <UseWPF>False</UseWPF>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

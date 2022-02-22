@@ -12,6 +12,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Diagnostics;
 using Microsoft.Win32;
+using System.Collections.Concurrent;
 
 namespace Minecraft_Server_Actuator
 {
@@ -101,6 +102,8 @@ namespace Minecraft_Server_Actuator
 
             server = new CmslServer($"java -Xms{config.Ram}G -Xmx{config.Ram}G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar {config.ServerName}.jar nogui");
             server.OutputTextChangeEvent += server_OutputTextChangeEvent;
+
+            CheckForIllegalCrossThreadCalls = false;
 
             serverKill = new CmslServer(config.TaskkillCommand);
 
@@ -194,9 +197,9 @@ namespace Minecraft_Server_Actuator
         private void server_OutputTextChangeEvent(object sender, string e)
         {
             if (temp)
-                Invoke((Action)delegate { log.AppendText(Environment.NewLine + e); });
+                log.AppendText(Environment.NewLine + e);
             else
-                Invoke((Action)delegate { log.AppendText(e); });
+                log.AppendText(e);
 
             temp = true;
         }
