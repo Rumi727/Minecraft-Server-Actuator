@@ -21,6 +21,10 @@ TEAM Bucket 블랙리스트에 등록된 사람은 등록된 기간의 모든 �
 
 [TEAM Bucket 블랙리스트에 등록된 사용자 목록](https://docs.google.com/document/d/1diUFkd4drD_hroCqmRTYNVYzU_jpxQXsb45F-VvWekE/edit?usp=sharing)
 
+이러한 라이선스가 [오픈 소스 정의](https://opensource.org/osd)와 일치하지 않다는것을 알고있습니다  
+하지만 상관 없습니다  
+블랙리스트에 등록될려면 적어도 테러 정돈 해야 등록될 정도로 매우 빡빡하며 등록된 사람들 전부 대부분의 사람들이 납득 가능한 이유가 있습니다
+
 
 
 ## 사용 방법
